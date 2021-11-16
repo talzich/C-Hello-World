@@ -1,1 +1,115 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T13:08:43.653Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" version="15.7.4" etag="mPW7DYnIUz8RowqBaOcB" type="github"><diagram id="P5j67yg6wrQElKykTM3q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-16T13:42:06.826Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="IgjAu6mDWvBCr7TkbdA6" version="15.7.4" type="github">
+  <diagram id="P5j67yg6wrQElKykTM3q" name="Page-1">
+    <mxGraphModel dx="946" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tJxeMknpA_fyTFLNKy85-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="60" width="540" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-2" value="סועד&lt;br&gt;E1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="65" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tJxeMknpA_fyTFLNKy85-2" target="tJxeMknpA_fyTFLNKy85-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="340" as="sourcePoint" />
+            <mxPoint x="460" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-4" value="1&lt;br&gt;קלוט מספר מזהה &lt;br&gt;מסעדה ומספר שולחן" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-5" value="מספר מזהה מסעדה ומספר שולחן" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-6" value="D1&lt;br&gt;מאגר מסעדות" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="520" y="95" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tJxeMknpA_fyTFLNKy85-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="140" as="sourcePoint" />
+            <mxPoint x="420" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-8" value="מספר מזהה מסעדה ומספר שולחן" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="95" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-9" value="2&lt;br&gt;יצר עמוד תפריט מנתוני המסעדה" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tJxeMknpA_fyTFLNKy85-6" target="tJxeMknpA_fyTFLNKy85-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="300" as="sourcePoint" />
+            <mxPoint x="460" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-11" value="נתוני תפריט" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tJxeMknpA_fyTFLNKy85-9" target="tJxeMknpA_fyTFLNKy85-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="300" as="sourcePoint" />
+            <mxPoint x="460" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-13" value="תפריט המסעדה" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-14" value="מטבח&lt;br&gt;E2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="750" y="185" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-15" value="בר&lt;br&gt;E3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="750" y="290" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-16" value="מלצרים&lt;br&gt;E4" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="750" y="390" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-17" value="סועד&lt;br&gt;E1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="315" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tJxeMknpA_fyTFLNKy85-17" target="tJxeMknpA_fyTFLNKy85-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="590" as="sourcePoint" />
+            <mxPoint x="460" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-19" value="1&lt;br&gt;קלוט פרטי הזמנה" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="330" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-20" value="פרטי הזמנה" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="390" as="sourcePoint" />
+            <mxPoint x="400" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-23" value="פרטי הזמנה" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tJxeMknpA_fyTFLNKy85-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="390" as="sourcePoint" />
+            <mxPoint x="460" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tJxeMknpA_fyTFLNKy85-32" target="tJxeMknpA_fyTFLNKy85-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="385" as="sourcePoint" />
+            <mxPoint x="460" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tJxeMknpA_fyTFLNKy85-32" target="tJxeMknpA_fyTFLNKy85-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="385" as="sourcePoint" />
+            <mxPoint x="620" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJxeMknpA_fyTFLNKy85-32" value="ברוקר הודעות" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
